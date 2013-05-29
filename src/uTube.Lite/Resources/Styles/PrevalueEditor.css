@@ -1,0 +1,86 @@
+﻿/* Standard clearfix */
+.clearfix:after
+{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix
+{
+	display: inline-block;
+}
+
+html[xmlns] .clearfix
+{
+	display: block;
+}
+
+* html .clearfix
+{
+	height: 1%;
+}
+
+.uTube
+{
+	background: transparent url(<%= WebResource("uTube.Lite.Resources.Images.PrevalueEditor_uTubeLogo.png")%>) no-repeat right 8px;
+	padding-top: 40px;
+}
+.uTube .row
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.uTube .label
+{
+	float: left;
+	width: 120px;
+	margin-right: 10px;
+}
+.uTube .field
+{
+	float: left;
+}
+
+.uTube .description
+{
+	clear: left;
+	color: #666;
+	float: left;
+	font-style: italic;
+	margin: 3px 0 10px 130px;
+}
+
+.uTube .note
+{
+	clear: right;
+	color: #666;
+	float: left;
+	font-style: italic;
+	margin: 5px 0 10px 10px;
+}
+
+/* validation */
+.uTube .validator
+{
+	color: red;
+	display: block;
+	font-size: 11px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	visibility: visible;
+}
+
+/* headers */
+.uTube h3
+{
+	clear: left;
+	color: #666;
+	float: left;
+	font-style: italic;
+	font-weight: bold;
+	margin: 3px 10px 10px 0;
+}

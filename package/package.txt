@@ -1,0 +1,6 @@
+# uTube Lite
+
+This package installs the following:
+
+* [Macro] uTube Classic Player
+* [DataType] uTube Video Picker

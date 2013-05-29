@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+	<info>
+		<package>
+			<name>uTube Lite</name>
+			<version>0.0.0</version>
+			<license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+			<url>http://our.umbraco.org/projects/</url>
+			<requirements>
+				<major>0</major>
+				<minor>0</minor>
+				<patch>0</patch>
+			</requirements>
+		</package>
+		<author>
+			<name>Lee Kelleher</name>
+			<website>http://leekelleher.com/</website>
+		</author>
+		<readme>
+			<![CDATA[]]>
+		</readme>
+	</info>
+	<DocumentTypes />
+	<Templates />
+	<Stylesheets />
+	<Macros>
+		<macro>
+			<name>[uTube] Classic Player</name>
+			<alias>uTube.ClassicPlayer</alias>
+			<scriptType>uTube.Lite.Controls.Player</scriptType>
+			<scriptAssembly>uTube.Lite</scriptAssembly>
+			<xslt>
+			</xslt>
+			<useInEditor>True</useInEditor>
+			<refreshRate>0</refreshRate>
+			<scriptingFile>
+			</scriptingFile>
+			<properties>
+				<property name="Allow Full Screen" alias="AllowFullScreen" show="True" propertyType="bool" />
+				<property name="Video Url" alias="VideoUrl" show="True" propertyType="text" />
+				<property name="Video Width" alias="VideoWidth" show="True" propertyType="text" />
+				<property name="Video Id" alias="VideoId" show="True" propertyType="text" />
+				<property name="Aspect Ratio" alias="AspectRatio" show="True" propertyType="text" />
+				<property name="Video Height" alias="VideoHeight" show="True" propertyType="text" />
+			</properties>
+		</macro>
+	</Macros>
+	<DictionaryItems />
+	<Languages />
+	<DataTypes>
+		<DataType Name="uTube Single Video Picker" Id="8032E957-5D03-4AC0-8C17-CC045928FB49" Definition="A1A9C5F0-E83D-4776-9E69-E9372B59C464">
+			<PreValues>
+				<PreValue Id="5" Value="{&quot;EnablePreview&quot;:true,&quot;PreviewHeight&quot;:240,&quot;PreviewWidth&quot;:320,&quot;ApplicationName&quot;:null,&quot;DeveloperKey&quot;:null}" />
+			</PreValues>
+		</DataType>
+	</DataTypes>
+	<Actions />
+	<control />
+	<files />
+</umbPackage>
