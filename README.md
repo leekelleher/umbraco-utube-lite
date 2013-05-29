@@ -9,6 +9,10 @@ This cut-down version of the package installs the following:
 * [Macro] uTube Classic Player
 * [DataType] uTube Single Video Picker
 
+### Umbraco compatiability
+
+This package was compiled against Umbraco v6.0.5 (via [NuGet](http://nuget.org/packages/UmbracoCms.Core/6.0.5)). If support for an earlier version of Umbraco is required, please either raise an issue or feel free to submit a pull-request.
+
 ## Why a lightweight edition?
 
 The original [uTube](http://our.umbraco.org/projects/website-utilities/utube) package contained addition data-type editors and lots of front-end goodies, including excellent support for the chromeless player.
