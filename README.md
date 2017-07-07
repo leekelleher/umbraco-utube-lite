@@ -1,5 +1,7 @@
 # uTube Lite
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 uTube Lite is a lightweight edition of [uTube](http://our.umbraco.org/projects/website-utilities/utube) - the ultimate YouTube package for Umbraco.
 
 ## (Limited) Features
